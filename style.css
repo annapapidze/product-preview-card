@@ -1,0 +1,141 @@
+    /* mobile version */
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 343px;
+}
+
+.main_img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 343px;
+    height: 240px;
+}
+
+.main_img2 {
+    display: none;
+}
+
+.middle_div {
+    padding: 24px;
+}
+
+.first_para {
+    color: #6C7289;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.heading {
+    color: #1C232B;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.para {
+    color: #6C7289;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.price_div {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    gap: 19px;
+}
+
+.price {
+    color: #3D8168;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.price2 {
+    color: #6C7289;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 500;
+    text-decoration-line: line-through;
+}
+
+.main_button {
+    background-color: #3D8168;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    display: flex;
+    padding: 15px 92px;
+    border-radius: 8px;
+    gap: 5px;
+    border: none;
+}
+
+.mini_img {
+    color: white;
+    width: 15px;
+    height: 16px;
+}
+
+
+    /* desktop version */
+
+
+@media screen and (min-width: 1440px) {
+    main {
+        display: flex;
+        max-width: 600px;
+    }
+
+    .main_img {
+        display: none;
+    }
+
+    .main_img2 {
+        display: block;
+        width: 300px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .middle_div {
+        padding: 32px;
+    }
+
+    .heading {
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+
+    .price_div {
+        padding: 29px 0 30px 0;
+    }
+
+    .main_button {
+        padding: 15px 62px 16px 69px;
+    }
+}
+
